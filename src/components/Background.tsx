@@ -1,8 +1,9 @@
 "use client";
 
+import React from "react";
 import { darkmode } from "~/utils/themes";
 
-const Background = (props: any) => {
+const Background = (props: { children: React.ReactNode }) => {
   const baseStyle = "h-full w-full";
 
   return (
